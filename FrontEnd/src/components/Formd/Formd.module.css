@@ -1,0 +1,157 @@
+h1 {
+  text-align: center;
+}
+.sp{
+  color: #781c68;
+}
+h2 {
+  font-weight: bold;
+  font-size: 150%;
+}
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 120%;
+
+  color: black;
+}
+.tdItem td{
+  text-align: center;
+}
+
+.th1 {
+  width: 15px;
+  height: 15px;
+  margin-right: 3.5em;
+  margin-bottom: 0.2em;
+  margin-left: 2.5em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.containerld {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* button{
+    width: 270px;
+    height: 80px;
+    border: none;
+    outline: none;
+    background: #2f2f2f;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}  */
+
+.check-box {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  right: -40px;
+  opacity: 0;
+}
+
+.check-box svg {
+  width: 40px;
+  margin: 20px;
+}
+
+svg path {
+  stroke-width: 3;
+  stroke: #fff;
+  stroke-dasharray: 34;
+  stroke-dashoffset: 34;
+  stroke-linecap: round;
+}
+
+.active {
+  background: #ff2b75;
+  transition: 1s;
+}
+
+.active .check-box {
+  right: 0;
+  opacity: 1;
+  transition: 1s;
+}
+
+.button {
+  display: inline-block;
+
+  width: 50%;
+}
+.cont1 {
+  width: 25%;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.sp {
+  padding-right: 50px;
+}
+.active p {
+  margin-right: 125px;
+  transition: 1s;
+}
+
+.active svg path {
+  stroke-dashoffset: 0;
+  transition: 1s;
+  transition-delay: 1s;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  padding: 15px;
+  height: 10px;
+}
+
+tr:nth-child(even) {
+}
+
+.th1,
+.th1[type="radio"] + label,
+.th1[type="checkbox"] + label:before,
+select option,
+select {
+  width: 25%;
+  padding: 1em;
+  line-height: 1.4;
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 20px;
+  -webkit-transition: 0.35s ease-in-out;
+  -moz-transition: 0.35s ease-in-out;
+  -o-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.conn {
+  width: auto;
+}

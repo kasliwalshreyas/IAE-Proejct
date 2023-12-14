@@ -1,0 +1,71 @@
+.currjobs {
+  margin: 10px;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+}
+.lefttt {
+  width: 70%;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+}
+.rightss {
+  width: 50%;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+}
+.rightss,
+.lefttt {
+  margin: 0.5rem;
+  margin-top: 1rem;
+}
+.rightss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+}
+
+.footcontainer {
+  margin: 0.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+  padding: 15px 20px;
+}
+
+.skillcontainer {
+  display: inline-block;
+}
+
+.skillcard {
+  margin: 1rem;
+}
+.containers {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1300px) {
+  .lefttt {
+    width: 67%;
+    /* box-shadow: 0 0 20px rgb(0, 0, 0, 0.2); */
+  }
+  .rightss {
+    width: 30%;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+  }
+}
+
+@media (max-width: 1020px) {
+  .containers {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .lefttt {
+    width: 100%;
+    /* box-shadow: 0 0 20px rgb(0, 0, 0, 0.2); */
+  }
+  .rightss {
+    width: 100%;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+  }
+}

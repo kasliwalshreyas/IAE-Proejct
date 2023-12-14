@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* body {
+  margin: 0;
+} */
+
+.pastJobs {
+  max-width: 90rem;
+  padding: 1rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  /* box-shadow: 0 0 13px rgb(0, 0, 0, 0.15); */
+  border-radius: 20px;
+}
+
+.SkillPanel {
+  max-width: 90rem;
+  padding: 1rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  box-shadow: 0 0 13px rgb(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+
+.app {
+  width: 90%;
+  max-width: 43rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: white;
+  margin: 3rem auto;
+}
+
+.cardsss {
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgb(0, 0, 0, 0.15);
+  padding: 15px 10px;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.form-control input,
+.form-control label {
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input,
+.form-control select {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.form-control input:focus {
+  outline: none;
+  border-color: #240370;
+  background-color: #e0d4fd;
+}
+.form-control-invalid {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.control-group {
+  display: flex;
+  column-gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.control-group .form-control {
+  min-width: 15rem;
+  flex: 1;
+}
+
+.form-actions {
+  text-align: left;
+}
+
+.form-actions button {
+  margin-left: 1rem;
+}
+
+.error-text {
+  color: #b40e0e;
+}
+
+.slide-in-left-enter {
+  transform: translateX(-100%);
+}
+
+.proffimage {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.slide-in-left-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 200ms;
+}
+
+.slide-in-left-exit {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.slide-in-left-exit-active {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: all 200ms;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containers {
+  display: flex;
+  flex-direction: row;
+}
+.right,
+.left {
+  margin: 1rem;
+  margin-top: 1rem;
+}
+.left {
+  width: 70%;
+}
+.right {
+  width: 30%;
+}
+.search {
+  width: 35%;
+}
+.contain {
+  display: flex;
+  justify-content: center;
+}
+.head {
+  margin-left: 1rem;
+  text-align: left;
+}
+.options {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem;
+  box-shadow: 0 0 15px rgb(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+.imageprof {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative;
+  bottom: 37px; */
+  transform: translateY(-85%);
+}
+
+.ima {
+  display: flex;
+  justify-content: center;
+}
+.image {
+  position: relative;
+  bottom: 2.6rem;
+  width: 50px;
+  height: 50px;
+  background-color: #adadad;
+  border-radius: 80px;
+}
+.prof {
+  position: relative;
+  left: 1px;
+  top: 12px;
+  font-size: 1.5rem;
+}
+.name {
+  position: relative;
+  bottom: 1.5rem;
+  text-align: center;
+}
+.text {
+  position: relative;
+  bottom: 1.8rem;
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+}
+.butt {
+  position: relative;
+  bottom: 1.5rem;
+}
+.deta {
+  display: flex;
+  flex-direction: column;
+}
+
+.progresscss {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logg {
+  width: 6rem;
+}
+.loggout {
+  position: relative;
+  right: 1rem;
+}
+.collapse {
+  display: flex;
+  flex-direction: row;
+}
+
+.rightside {
+  position: relative;
+  right: 2rem;
+}

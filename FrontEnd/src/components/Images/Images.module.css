@@ -1,0 +1,27 @@
+/* img {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 1px;
+    width: 350px;
+}
+body {
+    padding-top: 70px;}
+  .row .flex {
+   display: inline-flex;
+   width: 100%;}
+  img {
+   width: 75;
+   min-height:100px;}
+
+   .thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+     border: 1px solid #fff; 
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+} */

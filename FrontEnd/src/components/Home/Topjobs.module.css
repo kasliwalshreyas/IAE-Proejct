@@ -1,0 +1,42 @@
+.headd {
+  font-weight: 700;
+  text-align: center;
+}
+
+.titlee {
+  font-weight: 600;
+}
+
+.titleee {
+  color: white;
+}
+
+.servicee {
+  font-weight: 500;
+  color: #111;
+}
+.timee {
+  font-weight: 450;
+}
+
+.optionss {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 0 15px rgb(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+
+.proglanguagee {
+  display: flex;
+  justify-content: flex-start;
+  overflow-y: scroll;
+}
+
+/* .containerss {
+  display: flex;
+  justify-content: center;
+} */

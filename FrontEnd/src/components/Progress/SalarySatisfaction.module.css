@@ -1,0 +1,21 @@
+.container{
+  /* background-color: blue; */
+margin: 2rem;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  font-weight: 700;
+  position: relative;
+  left: 12%;
+
+}
+@media (max-width: 770px) {
+  .container{
+    left:30%;
+  }
+}

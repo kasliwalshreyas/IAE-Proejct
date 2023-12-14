@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: montserrat;
+  /* background: linear-gradient(-125deg, #e1f2fb, #f3dfe3, #f1f9f9, #e9b2bc); */
+  height: 100vh;
+  /* overflow: hidden; */
+  text-align: center;
+}
+
+.log {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  padding-top: 5%;
+  color: #9c27b0;
+  font-weight: bold;
+}
+
+.main {
+  background-color: #ffffff;
+  width: 400px;
+  height: 400px;
+  margin: 7em auto;
+  border-radius: 1.5em;
+  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.em {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  font-size: 120%;
+}
+
+.pw {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 120%;
+}
+/*.in{
+    padding-left: 15px;
+    padding-top: 8px; 
+}
+
+.inpw{
+    border-radius: 5em;
+    padding-left: 15px;
+    padding-top: 8px; 
+    padding-right:15px;
+} */
+
+.submit {
+  cursor: pointer;
+  border-radius: 5em;
+  color: #fff;
+  background: linear-gradient(to right, #9c27b0, #e040fb);
+  border: 0;
+  font-family: "Ubuntu", sans-serif;
+  height: 50px;
+  width: 150px;
+  font-size: 22px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.textUL[type="text"] {
+  border-radius: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  height: 55px;
+  width: 300px;
+  padding: 0.8rem;
+}
+.passUL[type="password"] {
+  border-radius: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  height: 55px;
+  width: 300px;
+  padding: 0.8rem;
+}

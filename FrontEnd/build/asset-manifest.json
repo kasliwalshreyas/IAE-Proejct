@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/sanjusabu/SIH-Project/static/css/main.29619a57.chunk.css",
+    "main.js": "/sanjusabu/SIH-Project/static/js/main.420cd262.chunk.js",
+    "main.js.map": "/sanjusabu/SIH-Project/static/js/main.420cd262.chunk.js.map",
+    "runtime-main.js": "/sanjusabu/SIH-Project/static/js/runtime-main.51d7e7b3.js",
+    "runtime-main.js.map": "/sanjusabu/SIH-Project/static/js/runtime-main.51d7e7b3.js.map",
+    "static/js/2.aad2887e.chunk.js": "/sanjusabu/SIH-Project/static/js/2.aad2887e.chunk.js",
+    "static/js/2.aad2887e.chunk.js.map": "/sanjusabu/SIH-Project/static/js/2.aad2887e.chunk.js.map",
+    "index.html": "/sanjusabu/SIH-Project/index.html",
+    "static/css/main.29619a57.chunk.css.map": "/sanjusabu/SIH-Project/static/css/main.29619a57.chunk.css.map",
+    "static/js/2.aad2887e.chunk.js.LICENSE.txt": "/sanjusabu/SIH-Project/static/js/2.aad2887e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51d7e7b3.js",
+    "static/js/2.aad2887e.chunk.js",
+    "static/css/main.29619a57.chunk.css",
+    "static/js/main.420cd262.chunk.js"
+  ]
+}

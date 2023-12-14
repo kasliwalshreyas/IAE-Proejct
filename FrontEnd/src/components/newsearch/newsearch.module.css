@@ -1,0 +1,40 @@
+.headd {
+  font-weight: 700;
+  text-align: center;
+}
+
+.titlee {
+  font-weight: 600;
+}
+
+.servicee {
+  font-weight: 500;
+  color: #111;
+}
+.timee {
+  font-weight: 450;
+}
+
+.optionss {
+  padding: 2rem 2.5rem;
+  margin: 1.5rem;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+}
+
+.proglanguagee {
+  display: flex;
+  justify-content: flex-start;
+  overflow-y: scroll;
+}
+
+.listtt {
+  list-style: none;
+  margin: 3px;
+}
+.listt {
+  list-style: none;
+}
+.containerss {
+  display: flex;
+  justify-content: center;
+}
